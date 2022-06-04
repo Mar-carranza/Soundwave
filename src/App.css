@@ -1,7 +1,6 @@
 
 body{
   background-color: #2F303A;
-  color: white;
   font-family:'Poppins', sans-serif;
   
 }
@@ -24,41 +23,13 @@ body{
   border-radius:50px;
 }
 
-header {
-  margin: 2em;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 2%;
-     
-}
-
-.imagen{
-  width: 30%
-}
-
-.home {
-  background-color: aqua;
-  display: flex;
-  justify-content: space-around;
-
-  
-}
-
-.home .imagen {
-  
-}
-.home .texto {
-  
-}
-
-
-.footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 */
+
+
+
+
+
+
 
   
   

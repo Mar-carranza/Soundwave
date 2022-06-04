@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
 import Discover from './components/Discover.js';
-//import Footer from './components/Footer.js';
 import Home from './components/Home.js';
-import Navbar from './components/Navbar.js'
+import Navbar from './components/Navbar.js';
+import Join from './components/Join.js';
 
 function App() {
   return(
-      <div>
-        <Navbar />
+      <>
+       <Navbar />
         <Home />
-        <Discover />
-        
-      </div>
+        <Discover /> 
+        <Join />
+      </>
    
   );
 }

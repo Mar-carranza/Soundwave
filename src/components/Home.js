@@ -8,7 +8,7 @@ import { Button, Box, Typography } from '@mui/material';
 function Home(){
     return(
       <section className="Home" style={{backgroundColor:'#2F303A', display:'flex', alignItems:'center', justifyContent: 'space-around', paddingTop: '10%', height: '100vh'}}>
-        <Box className= 'imagen'>
+        <Box className= 'imagen' >
           <img src={imagenmujer} alt='imagen mujer' style={{width:'70%'}} />
         </Box>
         <Box className="text" style={{marginLeft: '-35%'}}>
