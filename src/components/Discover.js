@@ -18,15 +18,15 @@ function Discover(){
              <Box>
                 <Typography variant='h3' color= '#FFFFF5' marginTop= '2rem' marginBottom='2rem'> Discover new music </Typography>
                 <Box style={{display:'flex', gap:'1rem', }}>
-                 <Button style={{display:'flex', flexDirection:'column', gap:'1rem', backgroundColor:'#202027'}}>
+                 <Button style={{display:'flex', flexDirection:'column', gap:'1rem', backgroundColor:'#202027', color:'#fffff5'}}>
                     <img src={microfono} alt= 'microfono'/>
                     <Typography>Charts</Typography>
                  </Button>
-                 <Button style={{display:'flex', flexDirection:'column', gap:'1rem', backgroundColor:'#202027'}}>
+                 <Button style={{display:'flex', flexDirection:'column', gap:'1rem', backgroundColor:'#202027', color:'#fffff5'}}>
                    <img src={album} alt= 'albums'/>
                     <Typography>Albums</Typography>
                  </Button>
-                 <Button style={{display:'flex', flexDirection:'column', gap:'1rem', backgroundColor:'#202027'}}>
+                 <Button style={{display:'flex', flexDirection:'column', gap:'1rem', backgroundColor:'#202027', color:'#fffff5'}}>
                    <img src={more} alt= 'more'/>
                    <Typography>More</Typography>
                  </Button>

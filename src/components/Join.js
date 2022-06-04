@@ -8,7 +8,7 @@ import Footer from './Footer'
 function Join() { 
     return ( 
       <>
-      <section className="Join" style={{height: '100vh',gap:'5rem',padding:'2rem', display: "flex", justifyContent: "center", alignItems: "center"}}>
+      <section id="join" style={{height: '100vh',gap:'5rem',padding:'2rem', display: "flex", justifyContent: "center", alignItems: "center"}}>
           <Box className='text' style={{display:'flex'}}>
           <Typography variant="h2" paragraph color='#fffff5' style={{fontWeight: "600"}}>Join the <span style={{color: "#d3007b",fontWeight: "600"}}>fun.</span></Typography>
           
