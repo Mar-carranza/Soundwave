@@ -1,7 +1,5 @@
 import React from "react";
-
 import imagenmujer from '../images/landing-page-girl.png'
-import Footer from './Footer.js';
 import { Button, Box, Typography } from '@mui/material';
 
 
