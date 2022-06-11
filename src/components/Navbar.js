@@ -7,7 +7,7 @@ function Navbar(){
       <> 
         <AppBar position='fixed' style={{backgroundColor: '#202027', boxShadow: '0px 0px 0px 0px', color: 'white', maxWidth:'100%',minWidth:'100% '}}>
             <Toolbar>
-              <Box className="nav" style={{display:'flex', justifyItem:'center', alignItems:'center',marginLeft:'15rem', marginRight:'27rem'}}>
+              <Box className="nav" style={{display:'flex',justifyItem:'center', alignItems:'center',marginLeft:'15rem', marginRight:'27rem'}}>
                 <img src={logo} alt='logo de aplicacion'/>
                 <Typography variant="h6" component='div' sx={{ flexGrow: 1 }} style={{padding:'20px',fontSize:'1.2rem'}} href='#home'>Soundwave</Typography>
               </Box>
@@ -16,6 +16,7 @@ function Navbar(){
                 <Button href="#join" style= {{color:'#fffff5',textTransform: "capitalize", fontSize:'1rem'}}> Join </Button>
               </Stack>
             </Toolbar>
+            
         </AppBar>
        </> 
     )
