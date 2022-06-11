@@ -9,7 +9,8 @@ function Navbar(){
             <Toolbar>
               <Box className="nav" style={{display:'flex',justifyItem:'center', alignItems:'center',marginLeft:'15rem', marginRight:'27rem'}}>
                 <img src={logo} alt='logo de aplicacion'/>
-                <Typography variant="h6" component='div' sx={{ flexGrow: 1 }} style={{padding:'20px',fontSize:'1.2rem'}} href='#home'>Soundwave</Typography>
+                <a href="#Home">
+                <Typography variant="h6" component='div' sx={{ flexGrow: 1 }} style={{color:'#fffff5',padding:'20px',fontSize:'1.2rem'}} href='#home'>Soundwave</Typography></a>
               </Box>
               <Stack direction='row' spacing = {2} style={{color: '#fffff5'}}>
                 <Button href='#discover' style= {{color:'#fffff5', textTransform: "capitalize",fontSize:'1rem'}}>Discover</Button>
